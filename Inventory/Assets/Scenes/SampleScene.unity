@@ -123,50 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &377120036
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 377120038}
-  - component: {fileID: 377120037}
-  m_Layer: 0
-  m_Name: Testing
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &377120037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 377120036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9555d62bd8e1c94bbb76d93e60813ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &377120038
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 377120036}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,3 +215,126 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1281185804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1281185805}
+  - component: {fileID: 1281185806}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1281185805
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281185804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1281185806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281185804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 856161446ed34884a6c201de14b17d95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory:
+    Slots:
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+    - Item:
+        Data: {fileID: 0}
+      Stack: 0
+  Slots: 25
+  _itemData: {fileID: 11400000, guid: 2908f754db8d08d419d55d92bab60531, type: 2}
